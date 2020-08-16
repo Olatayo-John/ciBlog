@@ -1,0 +1,109 @@
+body{
+	/*background-color: #F5F5F5;*/
+	background-image: url('../images/5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+*{
+	font-family: 'Baloo Tamma 2', cursive;
+}
+label a{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+label a:hover{
+	text-decoration: none;
+	color: black;
+}
+/*div.alert{
+	animation-name: alert;
+	position: relative;
+	animation-fill-mode: forwards;	
+	animation-duration: 1s;
+	transition: 1s;speed of when u close the alert button 
+	animation-timing-function: ease-out;
+	left: -100%;				
+}
+@keyframes alert{
+	0%{
+		left: -500%;
+	}			
+	100%{
+		left: auto;
+	}
+}*/
+.side-nav{
+	background-color: #212121;
+	position: fixed;
+	overflow-x: hidden;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	height: 100%;
+	width: 0;
+	padding-top: 70px;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+div ul li a.nav-link{
+	display: block;
+	color: white;
+	font-size: 18px;
+}
+li a i.fas,li a i.fab{
+	color: white;
+	margin: 0px 10px;
+}
+div ul li a.nav-link:hover{
+	background-color: #8BC34A;
+	width: 100%;
+	border-radius: 5px;
+	font-weight: bold;
+	transform: scale(0.9);
+}
+a.closex{
+	color: white;
+	top: 6px;
+	right: 20px;
+	position: absolute; 
+	font-size: 35px;
+}
+a.closex:hover{
+	color: #EF5350;
+	font-weight: bolder;
+	text-decoration: none;
+}
+button.menubtn{
+	font-size: 15px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+#content{
+	transition: 5s;
+	padding: 0px 20px;
+	position: relative;
+}
+.card{
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #BDBDBD;
+}
+.card a{
+	color: #212121;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.card small.category{
+	color: red;
+	background-color: transparent;
+}
+.card small{
+	font-weight: bolder;
+	background-color: #BDBDBD;
+}
+h3.postid{
+	text-align: center;
+}
